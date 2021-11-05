@@ -1,0 +1,24 @@
+.tabs {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px;
+
+  .tab {
+    width: 180px;
+    height: 32px;
+    text-align: center;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.57);
+  
+    &.current {
+      color: rgba(255, 255, 255, 0.87);
+      border-bottom: 1px solid #ffffff;
+    }
+  };
+}
+
